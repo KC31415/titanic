@@ -1,0 +1,77 @@
+<html>
+    <style>
+        .women {
+               width: 100px;
+               height: 100px;
+               fill: #d72631;
+               transition: width 2s;
+               rx: 15px;
+        }
+
+        .women:hover {
+              width: 740px;
+              height: 100px;
+        }
+
+        .men {
+            width: 100px;
+               height: 100px;
+               fill: #077b8a;
+               transition: width 2s;
+               rx: 15px;
+        }
+        
+        .men:hover {
+              width: 189px;
+              height: 100px;
+        }
+        
+        .kids {
+            width: 100px;
+               height: 100px;
+               fill: #a2d5c6;
+               transition: width 2s;
+               rx: 15px;
+        }
+        
+        .kids:hover {
+              width: 590px;
+              height: 100px;
+
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        div {
+            max-width: 1000px;
+            margin:auto;
+            font-family: timesnewroman;
+            border:solid 2px;
+            border-radius: 15px;
+            padding: 20px;
+        }
+    </style>
+    <div>
+        <h1>Women and children first? An analysis on the statistics of Titanic survivors</h1>
+        <p>This is the result of our Titanic analysis.</p>
+        <img src='titanic.jpeg' width='750px' class='center'>
+        <br>
+
+        <h2>Study conclusion</h2>
+        <svg width='800' height='500'>
+            <rect class='women'></rect>
+            <text x='25' y='25' fill='white'>Women</text>
+            <text x='650' y='40' font-size=40 fill='white'>74%</text>
+            <rect class='kids'y= '100' ></rect>
+            <text x='25' y='125' fill='white'>Kids</text>
+            <text x='500' y='140' font-size=40 fill='white'>59%</text>
+            <rect class='men'y= '200' ></rect>
+            <text x='25' y='225' fill='white'>Men</text>
+            <text x='100' y='240' font-size=40 fill='white'>19%</text>
+        </svg>
+    </div>
+</html>
